@@ -4,11 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>zineb_rachid_portfolio</title>
-  <meta name="description" content="Zineb Rachid – full-stack web developer skilled in React.js and Laravel. Discover my projects, skills, and contact information on my portfolio website.">
   <link rel="stylesheet" href="home.css">
   <link rel="stylesheet" href="mediaqueries.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-<link rel="icon" type="image/png" sizes="32x32" href="ZR.png">
 
 
 </head>
@@ -23,7 +21,7 @@
     <li><a href="#profile">About</a></li>
     <li><a href="#experience">Skills</a></li>
     <li><a href="#projects">Projects</a></li>
-     <li><a href="#contact">Contact</a></li>
+     <li><a href="#Contact">Contact</a></li>
     <li><button id="theme-toggle" >🌙</button></li>
   </ul>
 </div>
@@ -62,11 +60,11 @@
       
       <p class="section-text-p2"> Passionate about web development and design, I specialize in creating dynamic, user-friendly websites using modern technologies like React.js and Laravel. With a background in full-stack development and a keen interest in continuous learning, I strive to build efficient and visually appealing digital solutions. My commitment to problem-solving and attention to detail ensures that every project I work on is executed with precision and care</p>
       <div class="btn-container">
-      <button class="btn" onclick="window.open('./img/resume.pdf')"> Download CV</button>
+      <button class="btn" onclick="windowopen('./img/resume.pdf')"> Download CV</button>
       
     </div>
     </div>
-    <div class="profileimage">
+    <div class="section-pic-container">
       <img src="img/profile.jpeg" alt="zineb-profile-pic">
     </div>
   </section>
@@ -103,40 +101,7 @@
    </div>
   </div>
   </section>
-
- <section id="projects" class="projects">
-  <div style="text-align: center;">
-    <h2 style="margin-bottom: 2rem;">My Projects</h2>
-  </div>
-
-  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; padding: 1rem;">
-
-    <!-- Project 1 -->
-    <div  class="project-card">
-      <img src="img/RDV.png" alt="Medical Appointment Website Screenshot" style="width: 100%; height: auto; border-radius: 10px; margin-bottom: 1rem;">
-      <h3>🩺 Medical Appointment System</h3>
-      <p style="margin: 0.5rem 0;">Book medical appointments online with ease. Includes scheduling and confirmation features.</p>
-      <p><strong>Technologies:</strong> HTML, CSS, JavaScript, PHP, MySQL</p>
-      <div style="margin-top: 1rem;">
-        <a href="https://github.com/zineb-rachid/rendez-vous-medicale" target="_blank">💻 GitHub</a>
-      </div>
-    </div>
-
-    <!-- Project 2 -->
-    <div class="project-card">
-      <img src="img/adminstage.png" style="width: 100%; height: auto; border-radius: 10px; margin-bottom: 1rem;" >
-      <h3>📁 Stagiaires Management System</h3>
-      <p style="margin: 0.5rem 0;">A web app to manage intern information including stages, diplomas, and contact data. Built during my internship.</p>
-      <p><strong>Technologies:</strong> PHP, MySQL, HTML, CSS</p>
-      <div style="margin-top: 1rem;">
-        <a href="https://github.com/zineb-rachid/stagiaires" target="_blank">💻 GitHub</a>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-  <section class="contact" id="contact">
+  <section class="contact" id="Contact">
 <div class="col-md-10 col-md-offset-1 text-center">
                         <div class="email-icon"><i class="fas fa-paper-plane fa-3x"></i>
 </div>
@@ -155,7 +120,7 @@
     <a href="https://github.com/zineb-rachid" target="_blank" aria-label="GitHub" style="color: inherit;">
       <i class="fab fa-github fa-2x"></i>
     </a>
-    <a href="https://www.instagram.com/zineb__rachid?igsh=M3o0eTNoZjdldHVn&utm_source=qr" target="_blank" aria-label="Instagram" style="color: inherit;">
+    <a href="https://www.instagram.com/zinebrachid" target="_blank" aria-label="Instagram" style="color: inherit;">
       <i class="fab fa-instagram fa-2x"></i>
     </a>
   </div>
@@ -190,8 +155,8 @@ glow.classList.add('glow');
 document.body.appendChild(glow);
 
 /*document.addEventListener('mousemove', (e) => {
-  glow.style.left = ${e.pageX}px;
-  glow.style.top = ${e.pageY}px;
+  glow.style.left = `${e.pageX}px`;
+  glow.style.top = `${e.pageY}px`;
   glow.style.opacity=1;
   if (document.body.classList.contains("dark-theme")) {
     glow.style.background = "radial-gradient(300px circle at center, #C8ACD6, transparent 60%)";
@@ -206,4 +171,4 @@ document.addEventListener("scroll",(e) =>{
 </script>
 
 </body>
-</html> 
+</html>
